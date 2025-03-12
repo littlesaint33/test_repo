@@ -1,0 +1,84 @@
+/* 
+ * 测试CSS样式文件
+ * 此文件包含一些基本的CSS样式定义，用于演示Git的版本控制功能
+ */
+
+/* 基本页面样式 */
+body {
+    font-family: "微软雅黑", "宋体", sans-serif;
+    color: #333333;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* 容器样式 */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* 标题样式 */
+h1, h2, h3 {
+    color: #0066cc;
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 28px;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+/* 强调样式 */
+.highlight {
+    background-color: #ffffcc;
+    padding: 5px 10px;
+    border-left: 3px solid #ffcc00;
+    margin: 10px 0;
+}
+
+/* 按钮样式 */
+.button {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0055aa;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    
+    h1 {
+        font-size: 24px;
+    }
+    
+    h2 {
+        font-size: 20px;
+    }
+}
